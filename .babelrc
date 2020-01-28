@@ -8,6 +8,7 @@
 			{
 				"alias": {
 					"@assets": "./src/assets",
+					"@setup": "./src/app/setup",
 					"@components": "./src/shared/common/components",
 					"@svgs": "./src/shared/common/resrcs/svgs",
 					"@redux": "./src/shared/local-redux",

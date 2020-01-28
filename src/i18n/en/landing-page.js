@@ -5,5 +5,6 @@ export default {
 	searchKeepGoingHelpText: 'Keep going...',
 	searchAlmostThereHelpText: 'Almost there... You can do it!',
 	searchReadyHelpText: 'Awesome work! You are now ready to search the universe!',
+	searchLoading: 'Prepare for liftoff!',
 	dropdownHelpText: 'Click on a result to view more information'
 }

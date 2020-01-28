@@ -44,14 +44,17 @@ const Home = ({ onSearchRepo, loading }) => {
 						{loading && <Loader />}
 					</button>
 				</div>
-				{searchQuery.length === 0 && <p className={cc('helper-text')}>{i18n.searchHelpText}</p>}
-				{searchQuery.length === 1 && (
+				{!loading && searchQuery.length === 0 && <p className={cc('helper-text')}>{i18n.searchHelpText}</p>}
+				{!loading && searchQuery.length === 1 && (
 					<p className={cc('helper-text')}>{i18n.searchKeepGoingHelpText}</p>
 				)}
-				{searchQuery.length === 2 && (
+				{!loading && searchQuery.length === 2 && (
 					<p className={cc('helper-text')}>{i18n.searchAlmostThereHelpText}</p>
 				)}
-				{searchQuery.length >= 3 && <p className={cc('helper-text')}>{i18n.searchReadyHelpText}</p>}
+				{!loading && searchQuery.length >= 3 && (
+					<p className={cc('helper-text')}>{i18n.searchReadyHelpText}</p>
+				)}
+				{loading && <p className={cc('helper-text')}>{i18n.searchLoading}</p>}
 			</div>
 		</div>
 	)

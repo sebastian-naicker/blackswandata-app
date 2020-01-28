@@ -1,12 +1,10 @@
 import React from 'react'
 import { Switch, Route, Router } from 'react-router-dom'
 import PrivateRoute from '@utils/privateRoute'
-import { createBrowserHistory } from 'history'
+import history from '@setup/history'
 import { routes } from '@config'
 import { isLoggedIn } from '@utils/auth'
 import { Footer } from '@components'
-
-const history = createBrowserHistory()
 
 export default () => (
 	<Router history={history}>

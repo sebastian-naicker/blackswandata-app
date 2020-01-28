@@ -3,6 +3,7 @@ const path = require('path')
 module.exports = {
 	resolve: {
 		alias: {
+			'@setup': path.resolve(__dirname, './src/app/setup'),
 			'@assets': path.resolve(__dirname, './src/assets'),
 			'@components': path.resolve(__dirname, './src/shared/common/components'),
 			'@svgs': path.resolve(__dirname, './src/shared/common/resrcs/svgs'),

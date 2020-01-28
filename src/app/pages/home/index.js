@@ -1,6 +1,8 @@
 import { connect } from 'react-redux'
 import { searchRepos } from '@redux/global/thunks'
+import history from '@setup/history'
 import lifecycle from '@utils/lifecycle'
+import { paths } from '@config/index'
 import Home from './home'
 
 const mapStateToProps = ({ global }) => ({
@@ -12,15 +14,13 @@ const mapStateToProps = ({ global }) => ({
 const mergeProps = (stateProps, { dispatch }) => ({
 	...stateProps,
 	didUpdate(prevProps) {
-		console.log(prevProps.success, stateProps.success)
+		if (prevProps.success !== stateProps.success && stateProps.success) {
+			history.push(paths.DASHBOARD)
+		}
 	},
 	onSearchRepo(query) {
 		dispatch(searchRepos(query))
 	}
 })
 
-export default connect(
-	mapStateToProps,
-	null,
-	mergeProps
-)(lifecycle({ didUpdate: 'didUpdate' })(Home))
+export default connect(mapStateToProps, null, mergeProps)(lifecycle({ didUpdate: 'didUpdate' })(Home))
