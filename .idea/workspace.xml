@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/bob/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webpack/dev.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpack/dev.config.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webpack/prod.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpack/prod.config.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/loader/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/loader/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/todo-widget/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/factories/reducer-factory/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/factories/reducer-factory/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/utils/lifecycle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/utils/lifecycle/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/novus_v0_1$A_test_should_pass.coverage" NAME="A test.should pass Coverage Results" MODIFIED="1517944143675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/shared/config/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/setup/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/shared/utils/storage/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/shared/utils/storage/localStorage/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/shared/utils/enhanced-route/index.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/pages/home/home.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1WOMZe2l35zxsAOyQRrjqpFKBBr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="All project files" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/DEV/Personal/novus_v0.1/src/app/index.jsx" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.prettier" value="D:\DEV\Personal\novus_v0.1\node_modules\prettier" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/helpers" />
+      <recent name="$PROJECT_DIR$/src/shared/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\api\fetch" />
+      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\app\bootstrap" />
+      <recent name="D:\DEV\Personal\novus_v0.1\src\shared" />
+      <recent name="D:\DEV\Personal\novus_v0.1\src\shared\utils\enhanced-routes" />
+      <recent name="D:\DEV\Personal\novus_v0.1\src\shared\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.All tests">
+    <configuration name="A test.should pass" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.test.js" />
+      <test-names>
+        <test-name value="A test" />
+        <test-name value="should pass" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests" type="JavaScriptTestRunnerJest" temporary="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All tests" />
+      <item itemvalue="Jest.A test.should pass" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.All tests" />
+        <item itemvalue="Jest.A test.should pass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="" />
+      <created>1517138749715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517138749715</updated>
+      <workItem from="1517138753262" duration="3710000" />
+      <workItem from="1517173313522" duration="3573000" />
+      <workItem from="1517216414534" duration="10979000" />
+      <workItem from="1517336300815" duration="1057000" />
+      <workItem from="1517337379764" duration="9404000" />
+      <workItem from="1517382474842" duration="8874000" />
+      <workItem from="1517479062741" duration="38000" />
+      <workItem from="1517479163449" duration="596000" />
+      <workItem from="1517646781072" duration="828000" />
+      <workItem from="1517943222214" duration="4821000" />
+      <workItem from="1518267197909" duration="47000" />
+      <workItem from="1518439355418" duration="1910000" />
+      <workItem from="1518850843370" duration="1725000" />
+      <workItem from="1520417208602" duration="729000" />
+      <workItem from="1521132042450" duration="1300000" />
+      <workItem from="1521478495082" duration="635000" />
+      <workItem from="1521715890738" duration="1793000" />
+      <workItem from="1522852353047" duration="800000" />
+      <workItem from="1522853410374" duration="232000" />
+      <workItem from="1522853658471" duration="112000" />
+      <workItem from="1524061720766" duration="16670000" />
+      <workItem from="1524131296382" duration="1412000" />
+      <workItem from="1525387049120" duration="599000" />
+      <workItem from="1526531923033" duration="306000" />
+      <workItem from="1526558680857" duration="569000" />
+      <workItem from="1527196599940" duration="38761000" />
+      <workItem from="1528556408188" duration="1296000" />
+      <workItem from="1529175918195" duration="70000" />
+      <workItem from="1529176114588" duration="77000" />
+      <workItem from="1529176219011" duration="10840000" />
+      <workItem from="1529493734432" duration="320000" />
+      <workItem from="1532528020490" duration="1071000" />
+      <workItem from="1532615717478" duration="3906000" />
+      <workItem from="1533114185481" duration="992000" />
+      <workItem from="1538066844631" duration="2226000" />
+      <workItem from="1538145895196" duration="2677000" />
+      <workItem from="1538331679079" duration="34000" />
+      <workItem from="1538335814835" duration="1923000" />
+      <workItem from="1538378143169" duration="157000" />
+      <workItem from="1538401121787" duration="1448000" />
+      <workItem from="1539616166572" duration="805000" />
+      <workItem from="1541106414408" duration="940000" />
+      <workItem from="1541111198138" duration="269000" />
+      <workItem from="1542044959416" duration="93000" />
+      <workItem from="1542907310173" duration="639000" />
+      <workItem from="1542961972210" duration="1241000" />
+      <workItem from="1544106601988" duration="23894000" />
+      <workItem from="1544177166854" duration="5985000" />
+      <workItem from="1544184441787" duration="1098000" />
+      <workItem from="1544722612964" duration="929000" />
+      <workItem from="1545034788525" duration="719000" />
+      <workItem from="1545239073531" duration="673000" />
+      <workItem from="1552465173538" duration="2572000" />
+      <workItem from="1552468715491" duration="8000" />
+      <workItem from="1552471951666" duration="2564000" />
+      <workItem from="1552891797949" duration="73000" />
+      <workItem from="1555532157696" duration="7258000" />
+      <workItem from="1555567897411" duration="21000" />
+      <workItem from="1559142495785" duration="3382000" />
+      <workItem from="1559206022828" duration="9536000" />
+      <workItem from="1562163019119" duration="53000" />
+      <workItem from="1562250381346" duration="517000" />
+      <workItem from="1562316857705" duration="3320000" />
+      <workItem from="1579016247012" duration="3552000" />
+      <workItem from="1580221278450" duration="105000" />
+      <workItem from="1580221512307" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="A_test - 2018.02.06 at 21h 03m 22s.xml">
+      <configuration name="A test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test - 2018.02.06 at 21h 04m 42s.xml">
+      <configuration name="A test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test - 2018.02.06 at 21h 07m 48s.xml">
+      <configuration name="A test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test - 2018.02.06 at 21h 10m 38s.xml">
+      <configuration name="A test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test_should_pass - 2018.01.31 at 15h 13m 08s.xml">
+      <configuration name="A test.should pass" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test_should_pass - 2018.02.06 at 21h 01m 42s.xml">
+      <configuration name="A test.should pass" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test_should_pass - 2018.02.06 at 21h 08m 21s.xml">
+      <configuration name="A test.should pass" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test_should_pass - 2018.02.06 at 21h 08m 49s.xml">
+      <configuration name="A test.should pass" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="A_test_should_pass - 2018.02.06 at 21h 09m 03s.xml">
+      <configuration name="A test.should pass" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.02.06 at 21h 10m 58s.xml">
+      <configuration name="All tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2553" y="272" width="654" height="562" key="find.popup" timestamp="1579018033343">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2553" y="272" width="654" height="562" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579018033343" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
