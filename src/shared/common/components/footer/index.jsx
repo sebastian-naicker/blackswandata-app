@@ -1,10 +1,22 @@
-import React from 'react';
-import cc from 'utils/styles';
+import React from 'react'
+import i18n from '@i18n'
+import PotionIcon from '@svgs/potion.svg'
+import LightingIcon from '@svgs/lightening.svg'
 
 const Footer = () => (
-	<footer className={cc('footer')}>
-		<p className={cc('footer-content')}>Copyright &copy; 2020</p>
+	<footer className='footer'>
+		<p className={'footer-content'}>
+			{i18n.madeWithLove}{' '}
+			<span className='icon'>
+				<PotionIcon />
+			</span>
+			{i18n.by}{' '}
+			<span className='icon'>
+				<LightingIcon />
+			</span>
+			{i18n.year}
+		</p>
 	</footer>
-);
+)
 
-export default Footer;
+export default Footer

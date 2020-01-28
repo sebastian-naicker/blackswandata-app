@@ -9,7 +9,8 @@ module.exports = {
 			'@redux': path.resolve(__dirname, './src/shared/local-redux'),
 			'@utils': path.resolve(__dirname, './src/shared/utils'),
 			'@pages': path.resolve(__dirname, './src/app/pages'),
-			'@config': path.resolve(__dirname, './src/shared/config')
+			'@config': path.resolve(__dirname, './src/shared/config'),
+			'@i18n': path.resolve(__dirname, './src/i18n')
 		}
 	}
 }
