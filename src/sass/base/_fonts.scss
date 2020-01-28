@@ -1,3 +1,19 @@
+$font-sizes: (
+	'xxs': 8px,
+	'xs': 10px,
+	'sm': 12px,
+	'md': 14px,
+	'lg': 16px,
+	'xl': 21px,
+);
+
+$weights: (
+	'light': 300,
+	'normal': 400,
+	'semi-bold': 500,
+	'bold': 700,
+);
+
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.6rem; }
