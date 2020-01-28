@@ -1,7 +1,10 @@
-import { actionFactory } from 'factories';
+import { actionFactory } from 'factories'
 
-export const RESET_GLOBAL = 'RESET_GLOBAL';
-export const restoreAppState = () => actionFactory(RESET_GLOBAL, null);
+export const SEARCH_REPOS_PENDING = 'SEARCH_REPOS_PENDING'
+export const searchReposPending = () => actionFactory(SEARCH_REPOS_PENDING)
 
-export const SET_PAGE_TITLE = 'SET_PAGE_TITLE';
-export const setPageTitle = title => actionFactory(SET_PAGE_TITLE, { title });
+export const SEARCH_REPOS_SUCCESS = 'SEARCH_REPOS_SUCCESS'
+export const searchReposSuccess = response => actionFactory(SEARCH_REPOS_SUCCESS, { repos: response })
+
+export const SEARCH_REPOS_ERROR = 'SEARCH_REPOS_ERROR'
+export const searchReposError = err => actionFactory(SEARCH_REPOS_ERROR, err)

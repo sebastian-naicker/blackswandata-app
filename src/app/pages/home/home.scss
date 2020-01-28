@@ -39,6 +39,8 @@
 	}
 
 	&__button {
+		position: relative;
+		overflow: hidden;
 		display: flex;
 		justify-content: center;
 		background-color: $app-special-grey;

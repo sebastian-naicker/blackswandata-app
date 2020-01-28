@@ -1,8 +1,6 @@
-import { combineReducers } from 'redux';
-import global from './global/reducer';
-import users from './users/reducer';
+import { combineReducers } from 'redux'
+import global from './global/reducer'
 
 export default combineReducers({
-	global,
-	users,
-});
+	global
+})

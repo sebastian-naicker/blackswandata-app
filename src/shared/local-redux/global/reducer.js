@@ -1,10 +1,13 @@
-import { reducerFactory } from 'factories';
-import * as actions from './actions';
+import { reducerFactory } from 'factories'
+import * as actions from './actions'
 
 const initialState = {
-	title: '',
-};
+	repos: [],
+	loading: false,
+	success: false,
+	error: undefined
+}
 
 /* eslint-disable */
-const global = reducerFactory(initialState, actions);
-export default global;
+const global = reducerFactory(initialState, actions)
+export default global

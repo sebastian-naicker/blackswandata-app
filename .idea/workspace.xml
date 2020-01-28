@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/en/landing-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/landing-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/common/components/loader/loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/loader/loader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/users/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/users/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/users/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/users/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/users/thunks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/thunks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +33,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/app/setup/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/shared/utils/storage/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/shared/utils/enhanced-route/index.jsx" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +92,7 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -96,11 +106,11 @@
       <recent name="$PROJECT_DIR$/src/shared/helpers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/local-redux/users" />
+      <recent name="$PROJECT_DIR$/src/shared/local-redux/global" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\api\fetch" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.All tests">
@@ -225,7 +235,7 @@
       <workItem from="1579016247012" duration="3552000" />
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
-      <workItem from="1580225732912" duration="12683000" />
+      <workItem from="1580225732912" duration="15407000" />
     </task>
     <servers />
   </component>
@@ -286,10 +296,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1981" y="181" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580242631830" />
-    <state x="2553" y="272" width="654" height="562" key="find.popup" timestamp="1579018033343">
+    <state x="2553" y="272" width="654" height="562" key="find.popup" timestamp="1580251731597">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2553" y="272" width="654" height="562" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579018033343" />
+    <state x="2553" y="272" width="654" height="562" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580251731597" />
   </component>
   <component name="masterDetails">
     <states>

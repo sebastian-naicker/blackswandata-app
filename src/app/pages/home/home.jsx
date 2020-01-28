@@ -3,13 +3,18 @@ import PropTypes from 'prop-types'
 import i18n from '@i18n/index'
 import cc from '@utils/styles'
 import Logo from '@svgs/logo-color.svg'
+import Loader from '@components/loader'
 
-const Home = () => {
+const Home = ({ onSearchRepo, loading }) => {
 	const [searchQuery, setSearchQuery] = useState('')
 
 	const handleOnChange = ({ currentTarget }) => {
 		const { value } = currentTarget
 		setSearchQuery(value)
+	}
+
+	const handleSearch = () => {
+		onSearchRepo(searchQuery)
 	}
 
 	return (
@@ -26,13 +31,26 @@ const Home = () => {
 						placeholder={i18n.searchRepos}
 						onChange={handleOnChange}
 					/>
-					<button className={cc('search-box__button')} disabled={searchQuery.length < 3}>
-						<img className={cc('search-box__button-icon')} src='/assets/images/search.png' alt={i18n.search} />
+					<button
+						className={cc('search-box__button')}
+						disabled={searchQuery.length < 3 || loading}
+						onClick={handleSearch}
+					>
+						<img
+							className={cc('search-box__button-icon')}
+							src='/assets/images/search.png'
+							alt={i18n.search}
+						/>
+						{loading && <Loader />}
 					</button>
 				</div>
 				{searchQuery.length === 0 && <p className={cc('helper-text')}>{i18n.searchHelpText}</p>}
-				{searchQuery.length === 1 && <p className={cc('helper-text')}>{i18n.searchKeepGoingHelpText}</p>}
-				{searchQuery.length === 2 && <p className={cc('helper-text')}>{i18n.searchAlmostThereHelpText}</p>}
+				{searchQuery.length === 1 && (
+					<p className={cc('helper-text')}>{i18n.searchKeepGoingHelpText}</p>
+				)}
+				{searchQuery.length === 2 && (
+					<p className={cc('helper-text')}>{i18n.searchAlmostThereHelpText}</p>
+				)}
 				{searchQuery.length >= 3 && <p className={cc('helper-text')}>{i18n.searchReadyHelpText}</p>}
 			</div>
 		</div>
@@ -40,11 +58,11 @@ const Home = () => {
 }
 
 Home.defaultProps = {
-	title: ''
+	onSearchRepo: () => {}
 }
 
 Home.propTypes = {
-	title: PropTypes.string
+	onSearchRepo: PropTypes.func
 }
 
 export default Home
