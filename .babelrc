@@ -7,13 +7,14 @@
 			"module-resolver",
 			{
 				"alias": {
-					"Assets": "./src/assets",
-					"Components": "./src/shared/common/components",
-					"Svgs": "./src/shared/common/resrcs/svgs",
-					"Redux": "./src/shared/local-redux",
-					"Utils": "./src/shared/utils",
-					"Pages": "./src/app/pages",
-					"Config": "./src/shared/config"
+					"@assets": "./src/assets",
+					"@components": "./src/shared/common/components",
+					"@svgs": "./src/shared/common/resrcs/svgs",
+					"@redux": "./src/shared/local-redux",
+					"@utils": "./src/shared/utils",
+					"@pages": "./src/app/pages",
+					"@config": "./src/shared/config",
+					"@i18n": "./src/i18n"
 				}
 			}
 		]

@@ -2,13 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/webpack.alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/circle-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-alert-circle@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-calendar-edit@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-calendar-sync@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-computer-bug@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-police-man-2@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-rating-star@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-road-sign-split@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-search@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-strategy-split@undefinedxundefined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-tags-check@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/streamline-icon-upload-circle@48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/en/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/en/landing-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/en/results-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/lightening.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/potion.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.webpack/dev.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpack/dev.config.babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/about/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/bob/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/contact/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/todo/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/unauthenticated/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/users/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/users/users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/users/users.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/base/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/header/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/header/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/loader/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/loader/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/Todo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/TodoForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/TodoList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/TodoListCards.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/TodoReset.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/todo-widget/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/resrcs/loader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/loader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.alias.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.alias.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +115,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webpack.alias.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -84,20 +132,24 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\api\fetch" />
-      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\app\bootstrap" />
-      <recent name="D:\DEV\Personal\novus_v0.1\src\shared" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/favicon" />
       <recent name="$PROJECT_DIR$/src/shared/helpers" />
-      <recent name="$PROJECT_DIR$/src/shared/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\DEV\PERSONAL\Projects\novus_v0.1\src\api\fetch" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.All tests">
@@ -222,7 +274,7 @@
       <workItem from="1579016247012" duration="3552000" />
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
-      <workItem from="1580225732912" duration="2199000" />
+      <workItem from="1580225732912" duration="6171000" />
     </task>
     <servers />
   </component>
@@ -271,14 +323,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2260" y="307" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580227453342">
+    <state x="2131" y="322" width="682" height="461" key="EditFileWatcherDialog" timestamp="1580242630529">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2260" y="307" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580227453342" />
-    <state x="1981" y="181" width="992" height="737" key="SettingsEditor" timestamp="1580227455406">
+    <state x="2131" y="322" width="682" height="461" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580242630529" />
+    <state x="2260" y="307" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580242270525">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1981" y="181" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580227455406" />
+    <state x="2260" y="307" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580242270525" />
+    <state x="1981" y="181" width="992" height="737" key="SettingsEditor" timestamp="1580242631830">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1981" y="181" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1580242631830" />
     <state x="2553" y="272" width="654" height="562" key="find.popup" timestamp="1579018033343">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

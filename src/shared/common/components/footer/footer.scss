@@ -2,4 +2,10 @@
 	padding: 15px 0;
 	position: absolute;
 	bottom: 0;
+
+	&-content {
+		font-size: map_get($font-sizes, 'xs');
+		font-weight: map_get($weights, 'semi-bold');
+		color: $app-grey-dark;
+	}
 }

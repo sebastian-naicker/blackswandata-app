@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import cc from 'utils/styles';
-import Spinner from 'common/resrcs/loader.svg';
+import React from 'react'
+import PropTypes from 'prop-types'
+import cc from '@utils/styles'
+import Spinner from '@svgs/loader.svg'
 
 const Loader = ({ withText }) => (
 	<div className={cc('loader')}>
@@ -10,14 +10,14 @@ const Loader = ({ withText }) => (
 			{withText && <p>Loading...</p>}
 		</div>
 	</div>
-);
+)
 
 Loader.defaultProps = {
-	withText: false,
-};
+	withText: false
+}
 
 Loader.propTypes = {
 	withText: PropTypes.bool
-};
+}
 
-export default Loader;
+export default Loader
