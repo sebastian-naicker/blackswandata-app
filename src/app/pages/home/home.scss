@@ -55,6 +55,15 @@
 		background-color: lighten($app-special-grey, 10%);
 	}
 
+	&__button[disabled] {
+		background-color: $app-grey-light-font;
+		cursor: not-allowed;
+	}
+
+	&__button[disabled]:hover {
+		background-color: $app-grey-light-font;
+	}
+
 	&__button-icon {
 		width: 15px;
 		height: auto;

@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-color.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-alert-circle@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-calendar-edit@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-calendar-sync@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-computer-bug@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-police-man-2@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-rating-star@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-road-sign-split@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-search@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-strategy-split@undefinedxundefined.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-tags-check@48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/streamline-icon-upload-circle@48x48.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/i18n/en/landing-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/landing-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-horizontal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-horizontal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/utils/styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/utils/styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/loader/loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/loader/loader.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +225,7 @@
       <workItem from="1579016247012" duration="3552000" />
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
-      <workItem from="1580225732912" duration="11740000" />
+      <workItem from="1580225732912" duration="12683000" />
     </task>
     <servers />
   </component>

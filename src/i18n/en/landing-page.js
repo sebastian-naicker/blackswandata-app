@@ -4,5 +4,6 @@ export default {
 	searchHelpText: 'Type at least 3 characters to begin search',
 	searchKeepGoingHelpText: 'Keep going...',
 	searchAlmostThereHelpText: 'Almost there... You can do it!',
+	searchReadyHelpText: 'Awesome work! You are now ready to search the universe!',
 	dropdownHelpText: 'Click on a result to view more information'
 }
