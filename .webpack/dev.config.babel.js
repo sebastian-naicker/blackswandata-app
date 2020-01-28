@@ -1,6 +1,7 @@
 import path from 'path';
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import env from 'dotenv'
 
 const dotenv = env.config({ path: '.env' });
@@ -33,6 +34,12 @@ export default {
 		compress: true, // enable gzip compression
 		hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
 		https: false, // true for self-signed, object for cert authority
+		proxy: {
+			'/assets': {
+				target: 'http://localhost:8080',
+				pathRewrite: {'^/assets' : 'src/assets'}
+			}
+		},
 		historyApiFallback: true,
 		stats: 'errors-only'
 	},
@@ -51,6 +58,8 @@ export default {
 				API_URL: JSON.stringify(dotenv.parsed.API_URL),
 			}
 		}),
+
+		new CopyWebpackPlugin([ { from: 'src/assets', to: 'assets' } ] ),
 
 		// enable debug mode
 		new webpack.LoaderOptionsPlugin({

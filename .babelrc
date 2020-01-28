@@ -1,4 +1,20 @@
 {
 	"presets": ["@babel/env", "@babel/react"],
-	"plugins": ["syntax-dynamic-import", "@babel/plugin-proposal-class-properties"]
+	"plugins": [
+		"syntax-dynamic-import",
+		"@babel/plugin-proposal-class-properties",
+		[
+			"module-resolver",
+			{
+				"alias": {
+					"Components": "./src/shared/common/components",
+					"Svgs": "./src/shared/common/resrcs/svgs",
+					"Redux": "./src/shared/local-redux",
+					"Utils": "./src/shared/utils",
+					"Pages": "./src/app/pages",
+					"Config": "./src/shared/config"
+				}
+			}
+		]
+	]
 }
