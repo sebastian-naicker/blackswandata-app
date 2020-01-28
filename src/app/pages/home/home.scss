@@ -1,0 +1,74 @@
+.ge-logo-wrapper {
+	width: 110px;
+}
+
+.ge-landing-page {
+	display: flex;
+	flex-basis: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 500px;
+	}
+}
+
+.ge-search-box {
+	margin-top: 50px;
+	display: flex;
+
+	&__input {
+		padding: 10px 15px;
+		font-size: map_get($font-sizes, 'xs');
+		font-weight: map_get($weights, 'semi-bold');
+		background-color: $white;
+		color: $app-grey-font;
+		width: 350px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		border: none;
+		box-shadow: $box-shadow;
+	}
+
+	&__input::placeholder {
+		color: $app-grey-light-font;
+	}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		background-color: $app-special-grey;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+		border: none;
+		box-shadow: $box-shadow;
+		color: $white;
+		cursor: pointer;
+		flex-basis: 15%;
+	}
+
+	&__button:hover {
+		background-color: lighten($app-special-grey, 10%);
+	}
+
+	&__button-icon {
+		width: 15px;
+		height: auto;
+	}
+
+	&__input,
+	&__button {
+		outline: none;
+	}
+}
+
+.ge-helper-text {
+	width: 100%;
+	font-size: map_get($font-sizes, 'xs');
+	color: $app-grey-light-font;
+	padding: 10px;
+}

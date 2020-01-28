@@ -4,13 +4,12 @@ import PrivateRoute from '@utils/privateRoute'
 import { createBrowserHistory } from 'history'
 import { routes } from '@config'
 import { isLoggedIn } from '@utils/auth'
-import { Header, Footer } from '@components'
+import { Footer } from '@components'
 
 const history = createBrowserHistory()
 
 export default () => (
 	<Router history={history}>
-		<Header />
 		<div id='main-content'>
 			<React.Fragment>
 				<Switch>
@@ -23,7 +22,7 @@ export default () => (
 					})}
 				</Switch>
 			</React.Fragment>
+			<Footer />
 		</div>
-		<Footer />
 	</Router>
 )
