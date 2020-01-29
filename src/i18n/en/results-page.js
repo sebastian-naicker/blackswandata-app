@@ -1,4 +1,5 @@
 export default {
 	searchResultsHeading: 'Search results',
-	repositoriesSubHeading: 'Repositories'
+	repositoriesSubHeading: 'Repositories',
+	viewInfo: 'View info'
 }
