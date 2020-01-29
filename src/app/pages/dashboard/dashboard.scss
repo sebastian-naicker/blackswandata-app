@@ -4,7 +4,8 @@
 
 	&__heading {
 		font-size: map_get($font-sizes, 'xl');
-		margin-bottom: 30px;
+		margin-bottom: 60px;
+		margin-top: 30px;
 	}
 
 	&__sub-heading {
@@ -17,9 +18,5 @@
 	&__content {
 		display: flex;
 		height: 90%;
-	}
-
-	&__details {
-		flex-basis: 40%;
 	}
 }

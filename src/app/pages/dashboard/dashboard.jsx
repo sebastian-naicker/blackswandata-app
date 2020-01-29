@@ -5,8 +5,9 @@ import Portal from '@components/portal'
 import Header from '@components/header'
 import i18n from '@i18n/index'
 import Results from './results'
+import ResultDetails from './details'
 
-const Dashboard = ({ repos, searchQuery, onSearchRepo, loading }) => {
+const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, loading }) => {
 	const [selectedItem, setSelectedItem] = useState('')
 
 	const handleSelectResultItem = itemId => () => {
@@ -23,9 +24,11 @@ const Dashboard = ({ repos, searchQuery, onSearchRepo, loading }) => {
 				<Results
 					selectedItem={selectedItem}
 					handleSelectResultItem={handleSelectResultItem}
+					handleLoadMoreResults={onLoadMore}
+					loading={loading}
 					resultList={repos}
 				/>
-				<div className={cc('dashboard-page__details')}>details here</div>
+				<ResultDetails result={{}} />
 			</div>
 		</div>
 	)

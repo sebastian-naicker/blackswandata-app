@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/result-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/fork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/loadmore/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/loadmore/loadmore.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/loadmore/loadmore.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bug.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/i18n/en/results-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/results-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/thunks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/thunks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +238,7 @@
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
       <workItem from="1580225732912" duration="23416000" />
-      <workItem from="1580304021444" duration="8894000" />
+      <workItem from="1580304021444" duration="15208000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,8 @@ const initialState = {
 	loading: false,
 	success: false,
 	error: undefined,
-	searchQuery: ''
+	searchQuery: '',
+	pageNum: 1
 }
 
 /* eslint-disable */

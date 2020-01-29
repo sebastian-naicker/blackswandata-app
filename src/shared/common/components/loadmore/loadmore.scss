@@ -1,0 +1,19 @@
+.ge-load-more {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+
+	&__button {
+		padding: 10px;
+		color: $white;
+		border: none;
+		border-radius: 4px;
+		background-color: $app-blue;
+		cursor: pointer;
+
+		&:hover {
+			background-color: lighten($app-blue, 5%);
+		}
+	}
+}

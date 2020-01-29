@@ -4,5 +4,8 @@ export default {
 	viewInfo: 'View info',
 	stargazersCount: 'Stargazers count',
 	forksCount: 'Forks count',
-	issuesCount: 'Open issues count'
+	issuesCount: 'Open issues count',
+	resultDetails:
+		'You have not selected a repo to view details of. Please click on a repository on the left to view more information',
+	loadMore: 'Load more results'
 }
