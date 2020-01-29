@@ -10,7 +10,7 @@ const mapStateToProps = ({ global }) => ({
 	loading: global.loading,
 	success: global.success,
 	error: global.error,
-	// repos: global.repos,
+	repos: global.repos,
 	searchQuery: global.searchQuery
 })
 

@@ -1,0 +1,111 @@
+.ge-dashboard-page {
+	&__results {
+		flex-basis: 45%;
+		margin-right: 50px;
+	}
+
+	&__results-list {
+		margin-top: 10px;
+		padding-right: 15px;
+	}
+
+	&__result-item {
+		border-radius: 4px;
+		padding: 10px;
+		background-color: $white;
+		box-shadow: $box-shadow;
+		margin-bottom: 20px;
+		display: flex;
+		transition: border 0.3s ease-in;
+	}
+
+	&__result-item--selected {
+		border: solid 3px $app-yellow;
+	}
+
+	&__result-item__icon {
+		margin-right: 20px;
+		width: 35px;
+		height: 35px;
+		padding: 5px;
+		overflow: hidden;
+		border-radius: 50%;
+		background-color: $app-green;
+	}
+
+	&__result-item__name {
+		flex-basis: 75%;
+		padding-right: 10px;
+		display: flex;
+		flex-direction: column;
+		font-size: map_get($font-sizes, 'sm');
+		font-weight: map_get($weights, 'normal');
+		color: $app-grey-font-lighter;
+
+		& > a {
+			font-size: map_get($font-sizes, 'md');
+			font-weight: map_get($weights, 'bold');
+			color: $app-special-grey;
+			text-decoration: underline;
+		}
+	}
+
+	&__result-item__statuses {
+		display: flex;
+		margin-top: 15px;
+	}
+
+	&__result-item__status {
+		display: flex;
+		justify-content: center;
+		padding: 3px 8px;
+		margin-right: 20px;
+		background-color: $grey;
+		border-radius: 4px;
+		color: $white;
+		font-weight: map_get($weights, 'semi-bold');
+
+		& > img {
+			width: 20px;
+			height: 20px;
+			margin-right: 10px;
+		}
+	}
+
+	&__result-item__status--stars {
+		background-color: $app-yellow;
+	}
+
+	&__result-item__status--forks {
+		background-color: $app-blue;
+	}
+
+	&__result-item__status--issues {
+		background-color: $app-status-red;
+	}
+
+	&__result-item__button {
+		flex: 1 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 10px 5px;
+		border: none;
+		background-color: transparent;
+		outline: none;
+		color: $app-grey-font;
+		text-transform: lowercase;
+		cursor: pointer;
+		border-radius: 4px;
+
+		&:hover {
+			background-color: $paper;
+		}
+	}
+
+	&__result-item__button-icon {
+		max-width: 25px;
+		margin-bottom: 10px;
+	}
+}
