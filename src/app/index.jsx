@@ -8,6 +8,7 @@ import { Footer } from '@components'
 
 export default () => (
 	<Router history={history}>
+		<div id='header-portal' />
 		<div id='main-content'>
 			<React.Fragment>
 				<Switch>

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import i18n from '@i18n/index'
 import cc from '@utils/styles'
+import SearchBox from '@components/search-box'
 import Logo from '@svgs/logo-color.svg'
-import Loader from '@components/loader'
 
 const Home = ({ onSearchRepo, loading }) => {
 	const [searchQuery, setSearchQuery] = useState('')
@@ -23,27 +23,7 @@ const Home = ({ onSearchRepo, loading }) => {
 				<div className={cc('logo-wrapper')}>
 					<Logo />
 				</div>
-				<div className={cc('search-box')}>
-					<input
-						className={cc('search-box__input')}
-						type='text'
-						value={searchQuery}
-						placeholder={i18n.searchRepos}
-						onChange={handleOnChange}
-					/>
-					<button
-						className={cc('search-box__button')}
-						disabled={searchQuery.length < 3 || loading}
-						onClick={handleSearch}
-					>
-						<img
-							className={cc('search-box__button-icon')}
-							src='/assets/images/search.png'
-							alt={i18n.search}
-						/>
-						{loading && <Loader />}
-					</button>
-				</div>
+				<SearchBox value={searchQuery} onChange={handleOnChange} loading={loading} onClick={handleSearch} />
 				{!loading && searchQuery.length === 0 && <p className={cc('helper-text')}>{i18n.searchHelpText}</p>}
 				{!loading && searchQuery.length === 1 && (
 					<p className={cc('helper-text')}>{i18n.searchKeepGoingHelpText}</p>

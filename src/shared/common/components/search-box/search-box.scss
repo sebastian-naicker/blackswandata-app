@@ -1,0 +1,58 @@
+.ge-search-box {
+	display: flex;
+
+	&__input {
+		padding: 10px 15px;
+		font-size: map_get($font-sizes, 'xs');
+		font-weight: map_get($weights, 'semi-bold');
+		background-color: $white;
+		color: $app-grey-font;
+		width: 350px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		border: none;
+		box-shadow: $box-shadow;
+	}
+
+	&__input::placeholder {
+		color: $app-grey-light-font;
+	}
+
+	&__button {
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		background-color: $app-special-grey;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+		border: none;
+		box-shadow: $box-shadow;
+		color: $white;
+		cursor: pointer;
+		flex-basis: 20%;
+	}
+
+	&__button:hover {
+		background-color: lighten($app-special-grey, 10%);
+	}
+
+	&__button[disabled] {
+		background-color: $app-grey-light-font;
+		cursor: not-allowed;
+	}
+
+	&__button[disabled]:hover {
+		background-color: $app-grey-light-font;
+	}
+
+	&__button-icon {
+		width: 15px;
+		height: auto;
+	}
+
+	&__input,
+	&__button {
+		outline: none;
+	}
+}

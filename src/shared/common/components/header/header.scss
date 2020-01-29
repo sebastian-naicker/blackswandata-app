@@ -1,0 +1,10 @@
+.ge-header {
+	display: flex;
+	align-items: center;
+	padding: 30px 0;
+
+	&__logo {
+		width: 160px;
+		margin-right: 30px;
+	}
+}

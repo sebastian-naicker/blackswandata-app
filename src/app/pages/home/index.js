@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import { searchRepos } from '@redux/global/thunks'
+import { setSearchQuery } from '@redux/global/actions'
 import history from '@setup/history'
 import lifecycle from '@utils/lifecycle'
 import { paths } from '@config/index'
@@ -19,6 +20,7 @@ const mergeProps = (stateProps, { dispatch }) => ({
 		}
 	},
 	onSearchRepo(query) {
+		dispatch(setSearchQuery(query))
 		dispatch(searchRepos(query))
 	}
 })

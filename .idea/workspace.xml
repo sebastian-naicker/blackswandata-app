@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/setup/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/portal/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/search-box/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/search-box/search-box.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/common/components/search-box/search-box.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/en/landing-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/landing-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.alias.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.alias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/components/header/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-horizontal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/resrcs/svgs/logo-horizontal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/actions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -93,8 +99,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/shared/common/resrcs/svgs" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/favicon" />
       <recent name="$PROJECT_DIR$/src/shared/helpers" />
@@ -229,7 +235,7 @@
       <workItem from="1579016247012" duration="3552000" />
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
-      <workItem from="1580225732912" duration="16726000" />
+      <workItem from="1580225732912" duration="20330000" />
     </task>
     <servers />
   </component>

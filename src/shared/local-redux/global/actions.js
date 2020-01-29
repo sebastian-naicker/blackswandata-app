@@ -1,5 +1,11 @@
 import { actionFactory } from 'factories'
 
+export const RESET_APP_STATE = 'RESET_APP_STATE'
+export const resetAppState = () => actionFactory(RESET_APP_STATE)
+
+export const SET_SEARCH_QUERY = 'SET_SEARCH_QUERY'
+export const setSearchQuery = query => actionFactory(SET_SEARCH_QUERY, { searchQuery: query })
+
 export const SEARCH_REPOS_PENDING = 'SEARCH_REPOS_PENDING'
 export const searchReposPending = () => actionFactory(SEARCH_REPOS_PENDING)
 
