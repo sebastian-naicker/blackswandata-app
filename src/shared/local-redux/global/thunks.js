@@ -1,6 +1,13 @@
 import callApi from '@utils/api'
-import { searchReposRequest } from './requests'
-import { searchReposPending, searchReposSuccess, searchReposError } from './actions'
+import { searchReposRequest, getIssuesRequest } from './requests'
+import {
+	searchReposPending,
+	searchReposSuccess,
+	searchReposError,
+	getIssuesPending,
+	getIssuesSuccess,
+	getIssuesError
+} from './actions'
 
 export const searchRepos = (query, pageNum) => dispatch => {
 	dispatch(searchReposPending())
@@ -23,5 +30,16 @@ export const loadMoreResults = (query, pageNum, repos) => dispatch => {
 		})
 		.catch(({ response }) => {
 			dispatch(searchReposError(response.data.message))
+		})
+}
+
+export const getIssues = repoName => dispatch => {
+	dispatch(getIssuesPending())
+	callApi(getIssuesRequest)(repoName)
+		.then(({ data }) => {
+			dispatch(getIssuesSuccess(data))
+		})
+		.catch(({ response }) => {
+			dispatch(getIssuesError(response.data.message))
 		})
 }

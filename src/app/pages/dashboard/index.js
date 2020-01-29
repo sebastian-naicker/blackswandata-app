@@ -4,7 +4,7 @@ import lifecycle from '@utils/lifecycle'
 import { resetAppState, setSearchQuery } from '@redux/global/actions'
 import history from '@setup/history'
 import { paths } from '@config'
-import { searchRepos, loadMoreResults } from '@redux/global/thunks'
+import { searchRepos, loadMoreResults, getIssues } from '@redux/global/thunks'
 
 const mapStateToProps = ({ global }) => ({
 	loading: global.loading,
@@ -18,9 +18,9 @@ const mapStateToProps = ({ global }) => ({
 const mergeProps = (stateProps, { dispatch }) => ({
 	...stateProps,
 	didMount() {
-		if (stateProps.repos.length === 0) {
-			history.push(paths.ROOT)
-		}
+		// if (stateProps.repos.length === 0) {
+		// 	history.push(paths.ROOT)
+		// }
 	},
 	willUnmount() {
 		dispatch(resetAppState())
@@ -28,6 +28,9 @@ const mergeProps = (stateProps, { dispatch }) => ({
 	onSearchRepo(query) {
 		dispatch(setSearchQuery(query))
 		dispatch(searchRepos(query, 1))
+	},
+	onLoadIssues(repoName) {
+		dispatch(getIssues(repoName))
 	},
 	onLoadMore() {
 		dispatch(loadMoreResults(stateProps.searchQuery, ++stateProps.pageNum, stateProps.repos))

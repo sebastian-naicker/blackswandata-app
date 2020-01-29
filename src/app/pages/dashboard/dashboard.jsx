@@ -7,11 +7,14 @@ import i18n from '@i18n/index'
 import Results from './results'
 import ResultDetails from './details'
 
-const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, loading }) => {
+const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, onLoadIssues, loading }) => {
 	const [selectedItem, setSelectedItem] = useState('')
+	const [selectedResult, setSelectedResult] = useState({})
 
 	const handleSelectResultItem = itemId => () => {
+		const result = repos.items.find(repo => repo.id === itemId)
 		setSelectedItem(itemId)
+		if (result) setSelectedResult(result)
 	}
 
 	return (
@@ -28,7 +31,7 @@ const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, loading }) =>
 					loading={loading}
 					resultList={repos}
 				/>
-				<ResultDetails result={{}} />
+				<ResultDetails result={selectedResult} handleLoadIssues={onLoadIssues} />
 			</div>
 		</div>
 	)

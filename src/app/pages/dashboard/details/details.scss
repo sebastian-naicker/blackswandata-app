@@ -3,6 +3,19 @@
 		flex: 1;
 	}
 
+	&__details-result {
+		position: sticky;
+		top: 50px;
+	}
+
+	&__details-result__content {
+		margin-top: 20px;
+		border-radius: 4px;
+		background-color: $white;
+		padding: 20px;
+		box-shadow: $box-shadow;
+	}
+
 	&__details-message {
 		display: flex;
 		flex-direction: column;
@@ -23,5 +36,28 @@
 		font-weight: map_get($weights, 'normal');
 		text-align: center;
 		max-width: 50%;
+	}
+
+	&__details-list {
+		margin-top: 40px;
+
+		&__item {
+			display: flex;
+			margin-bottom: 10px;
+			color: $app-special-grey;
+			font-size: map_get($font-sizes, 'sm');
+
+			& > img {
+				width: 20px;
+				margin-right: 10px;
+			}
+		}
+
+		&-description {
+			margin-top: 30px;
+			color: $app-grey-font-lighter;
+			font-size: map_get($font-sizes, 'sm');
+			font-weight: map_get($weights, 'normal');
+		}
 	}
 }

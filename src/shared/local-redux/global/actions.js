@@ -15,3 +15,12 @@ export const searchReposSuccess = (response, pageNum) =>
 
 export const SEARCH_REPOS_ERROR = 'SEARCH_REPOS_ERROR'
 export const searchReposError = err => actionFactory(SEARCH_REPOS_ERROR, err)
+
+export const GET_ISSUES_PENDING = 'GET_ISSUES_PENDING'
+export const getIssuesPending = () => actionFactory(GET_ISSUES_PENDING)
+
+export const GET_ISSUES_SUCCESS = 'GET_ISSUES_SUCCESS'
+export const getIssuesSuccess = response => actionFactory(GET_ISSUES_SUCCESS, { issues: response })
+
+export const GET_ISSUES_ERROR = 'GET_ISSUES_ERROR'
+export const getIssuesError = err => actionFactory(GET_ISSUES_ERROR, err)

@@ -14,7 +14,9 @@ const ResultItem = ({ result, selectedItem, handleSelectResultItem }) => {
 				<img src='/assets/images/repo.png' alt='' />
 			</div>
 			<div className={cc('dashboard-page__result-item__name')}>
-				<a href={result.html_url}>{result.full_name}</a>
+				<a href={result.html_url} target='__blank'>
+					{result.full_name}
+				</a>
 				<span>{result.description}</span>
 				<div className={cc('dashboard-page__result-item__statuses')}>
 					<span
