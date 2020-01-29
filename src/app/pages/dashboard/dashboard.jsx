@@ -7,7 +7,7 @@ import i18n from '@i18n/index'
 import Results from './results'
 import ResultDetails from './details'
 
-const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, onLoadIssues, loading }) => {
+const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, onLoadIssues, loading, issues }) => {
 	const [selectedItem, setSelectedItem] = useState('')
 	const [selectedResult, setSelectedResult] = useState({})
 
@@ -31,7 +31,12 @@ const Dashboard = ({ repos, searchQuery, onSearchRepo, onLoadMore, onLoadIssues,
 					loading={loading}
 					resultList={repos}
 				/>
-				<ResultDetails result={selectedResult} handleLoadIssues={onLoadIssues} />
+				<ResultDetails
+					result={selectedResult}
+					handleLoadIssues={onLoadIssues}
+					issues={issues}
+					loading={loading}
+				/>
 			</div>
 		</div>
 	)

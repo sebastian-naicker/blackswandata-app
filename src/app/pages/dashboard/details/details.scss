@@ -1,6 +1,7 @@
 .ge-dashboard-page {
 	&__details {
-		flex: 1;
+		position: relative;
+		flex-basis: 50%;
 	}
 
 	&__details-result {
@@ -9,7 +10,7 @@
 	}
 
 	&__details-result__content {
-		margin-top: 20px;
+		margin-top: 10px;
 		border-radius: 4px;
 		background-color: $white;
 		padding: 20px;
@@ -58,6 +59,95 @@
 			color: $app-grey-font-lighter;
 			font-size: map_get($font-sizes, 'sm');
 			font-weight: map_get($weights, 'normal');
+		}
+	}
+
+	&__issue-list {
+		margin-top: 30px;
+
+		&__item {
+			display: flex;
+			margin-bottom: 20px;
+			border-radius: 4px;
+			justify-content: space-between;
+			background-color: $off-white;
+			box-shadow: $box-shadow;
+			padding: 10px;
+
+			& > img {
+				width: 15px;
+				height: 15px;
+				margin-right: 10px;
+			}
+		}
+
+		&__item-content {
+			flex-basis: 70%;
+		}
+
+		&__item-button-wrapper {
+			display: flex;
+			flex-basis: 20%;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		&__item-button {
+			padding: 5px 10px;
+			border: none;
+			border-radius: 4px;
+			background-color: $app-yellow;
+			color: $white;
+			cursor: pointer;
+		}
+
+		&__item-button--blue {
+			padding: 5px 10px;
+			border: none;
+			border-radius: 4px;
+			background-color: $app-blue;
+			color: $white;
+			cursor: pointer;
+		}
+
+		&__item-button:hover {
+			background-color: lighten($app-yellow, 5%);
+		}
+
+		&__item-title {
+			font-size: map_get($font-sizes, 'xs');
+			color: $app-special-grey;
+			max-width: 330px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		&__item-meta {
+			font-size: map_get($font-sizes, 'xs');
+			font-weight: map_get($weights, 'normal');
+			color: $app-grey-font;
+		}
+	}
+
+	&__issue-filter {
+		display: flex;
+		margin-top: 30px;
+	}
+
+	&__issue-filter__field {
+		margin: 0 10px;
+		display: flex;
+		align-items: center;
+
+		& > input {
+			margin-right: 5px;
+		}
+
+		& > label {
+			font-size: map_get($font-sizes, 'xs');
+			font-weight: map_get($weights, 'normal');
+			cursor: pointer;
 		}
 	}
 }

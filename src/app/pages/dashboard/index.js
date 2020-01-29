@@ -12,7 +12,8 @@ const mapStateToProps = ({ global }) => ({
 	error: global.error,
 	repos: global.repos,
 	searchQuery: global.searchQuery,
-	pageNum: global.pageNum
+	pageNum: global.pageNum,
+	issues: global.issues
 })
 
 const mergeProps = (stateProps, { dispatch }) => ({

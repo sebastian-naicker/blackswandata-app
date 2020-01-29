@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/common/components/tab/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/common/components/tab/tab.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/common/components/tab/tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/repo-details.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/repo-issues.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/alert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/en/results-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/results-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/local-redux/global/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/local-redux/global/requests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +232,7 @@
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
       <workItem from="1580225732912" duration="23416000" />
-      <workItem from="1580304021444" duration="20507000" />
+      <workItem from="1580304021444" duration="27786000" />
     </task>
     <servers />
   </component>

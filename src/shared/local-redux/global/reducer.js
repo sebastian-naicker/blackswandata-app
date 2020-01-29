@@ -3,6 +3,7 @@ import * as actions from './actions'
 
 const initialState = {
 	repos: [],
+	issues: {},
 	loading: false,
 	success: false,
 	error: undefined,
