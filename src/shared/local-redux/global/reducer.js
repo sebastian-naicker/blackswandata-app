@@ -5,7 +5,8 @@ const initialState = {
 	repos: [],
 	loading: false,
 	success: false,
-	error: undefined
+	error: undefined,
+	searchQuery: ''
 }
 
 /* eslint-disable */

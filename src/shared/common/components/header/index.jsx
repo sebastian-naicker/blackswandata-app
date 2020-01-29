@@ -5,17 +5,16 @@ import cc from '@utils/styles'
 import LogoHorizontal from '@svgs/logo-horizontal.svg'
 import SearchBox from '@components/search-box'
 
-const Header = () => {
-	const [searchQuery, setSearchQuery] = useState('')
+const Header = ({ searchQuery, onSearchRepo, loading }) => {
+	const [query, setQuery] = useState(searchQuery || '')
 
 	const handleOnChange = ({ currentTarget }) => {
 		const { value } = currentTarget
-		setSearchQuery(value)
+		setQuery(value)
 	}
 
 	const handleSearch = () => {
-		// onSearchRepo(searchQuery)
-		console.log(searchQuery)
+		onSearchRepo(query)
 	}
 
 	return (
@@ -26,7 +25,7 @@ const Header = () => {
 				</Link>
 			</div>
 			<div className={cc('header__search-box')}>
-				<SearchBox loading={false} onClick={handleSearch} onChange={handleOnChange} value={searchQuery} />
+				<SearchBox loading={loading} onClick={handleSearch} onChange={handleOnChange} value={query} />
 			</div>
 		</header>
 	)

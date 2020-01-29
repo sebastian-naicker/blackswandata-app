@@ -4,11 +4,11 @@ import cc from '@utils/styles'
 import Portal from '@components/portal'
 import Header from '@components/header'
 
-const Dashboard = ({ repos }) => {
+const Dashboard = ({ repos, searchQuery, onSearchRepo, loading }) => {
 	return (
 		<div className={cc('dashboard-page')}>
 			<Portal domNode={document.getElementById('header-portal')}>
-				<Header />
+				<Header searchQuery={searchQuery} onSearchRepo={onSearchRepo} loading={loading} />
 			</Portal>
 			<ul>
 				{repos.hasOwnProperty('items') && repos.items.map(repo => <li key={repo.id}>{repo.full_name}</li>)}

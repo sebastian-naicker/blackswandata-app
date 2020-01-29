@@ -1,15 +1,17 @@
 import { connect } from 'react-redux'
 import Dashboard from './dashboard'
 import lifecycle from '@utils/lifecycle'
-import { resetAppState } from '@redux/global/actions'
+import { resetAppState, setSearchQuery } from '@redux/global/actions'
 import history from '@setup/history'
 import { paths } from '@config'
+import { searchRepos } from '@redux/global/thunks'
 
 const mapStateToProps = ({ global }) => ({
 	loading: global.loading,
 	success: global.success,
 	error: global.error,
-	repos: global.repos
+	repos: global.repos,
+	searchQuery: global.searchQuery
 })
 
 const mergeProps = (stateProps, { dispatch }) => ({
@@ -21,6 +23,10 @@ const mergeProps = (stateProps, { dispatch }) => ({
 	},
 	willUnmount() {
 		dispatch(resetAppState())
+	},
+	onSearchRepo(query) {
+		dispatch(setSearchQuery(query))
+		dispatch(searchRepos(query))
 	}
 })
 
