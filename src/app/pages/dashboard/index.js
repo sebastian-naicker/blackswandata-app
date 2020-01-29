@@ -18,7 +18,7 @@ const mergeProps = (stateProps, { dispatch }) => ({
 	...stateProps,
 	didMount() {
 		if (stateProps.repos.length === 0) {
-			history.push(paths.ROOT)
+			// history.push(paths.ROOT)
 		}
 	},
 	willUnmount() {

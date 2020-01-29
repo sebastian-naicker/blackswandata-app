@@ -11,7 +11,7 @@ export default (classname, conditionalClasses) => {
 			}
 		})
 
-		finalClassList = `pr-${classname} ${classList.toString().replace(/,/g, ' ')}`
+		finalClassList = `${prefix}-${classname} ${classList.toString().replace(/,/g, ' ')}`
 	}
 
 	return finalClassList

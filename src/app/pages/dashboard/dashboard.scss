@@ -1,0 +1,28 @@
+.ge-dashboard-page {
+	width: 100%;
+	height: 100%;
+
+	&__heading {
+		font-size: map_get($font-sizes, 'xl');
+		margin-bottom: 30px;
+	}
+
+	&__sub-heading {
+		text-transform: uppercase;
+		color: $app-special-grey;
+		font-size: map_get($font-sizes, 'lg');
+		font-weight: map_get($weights, 'bold');
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__results {
+		flex-basis: 60%;
+	}
+
+	&__details {
+		flex-basis: 40%;
+	}
+}

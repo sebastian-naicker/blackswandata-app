@@ -23,7 +23,13 @@ const Home = ({ onSearchRepo, loading }) => {
 				<div className={cc('logo-wrapper')}>
 					<Logo />
 				</div>
-				<SearchBox value={searchQuery} onChange={handleOnChange} loading={loading} onClick={handleSearch} />
+				<SearchBox
+					value={searchQuery}
+					onChange={handleOnChange}
+					loading={loading}
+					onClick={handleSearch}
+					rounded
+				/>
 				{!loading && searchQuery.length === 0 && <p className={cc('helper-text')}>{i18n.searchHelpText}</p>}
 				{!loading && searchQuery.length === 1 && (
 					<p className={cc('helper-text')}>{i18n.searchKeepGoingHelpText}</p>
