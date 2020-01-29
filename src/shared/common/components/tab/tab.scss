@@ -1,0 +1,23 @@
+.ge-tab-headers {
+	display: flex;
+}
+
+.ge-tab-panel__header {
+	padding: 10px 20px;
+	font-size: map_get($font-sizes, 'sm');
+	background-color: $off-white;
+	cursor: pointer;
+
+	&--active {
+		background-color: $app-special-white;
+		border-bottom: solid 2px $app-yellow;
+	}
+}
+
+.ge-tab-panel__content {
+	display: none;
+
+	&--active {
+		display: block;
+	}
+}
