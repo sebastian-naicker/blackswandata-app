@@ -1,4 +1,4 @@
-# Special Day Facts App
+# GitHub Explorer App
 This app is built using my own custom framework, Novus
 
 The reason for also implementing the app in this form, was to demonstrate my overall understanding of a real world style react app, in terms of code structure, build process, file management, advanced sass/scss management.
