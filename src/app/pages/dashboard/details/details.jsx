@@ -4,6 +4,7 @@ import i18n from '@i18n/index'
 import Tab from '@components/tab'
 import RepoDetails from '@pages/dashboard/details/repo-details'
 import RepoIssues from '@pages/dashboard/details/repo-issues'
+import RepoGraph from '@pages/dashboard/details/repo-graph'
 
 const ResultDetails = ({ result, handleLoadIssues, issues, loading }) => {
 	const hasResult = Object.keys(result).length > 0
@@ -31,6 +32,7 @@ const ResultDetails = ({ result, handleLoadIssues, issues, loading }) => {
 					<h2 className={cc('dashboard-page__sub-heading')}>{result.full_name}</h2>
 					<div className={cc('dashboard-page__details-result__content')}>
 						<Tab
+							data={result}
 							tabs={[
 								{
 									tabHeading: i18n.tabDetails,
@@ -39,6 +41,10 @@ const ResultDetails = ({ result, handleLoadIssues, issues, loading }) => {
 								{
 									tabHeading: i18n.tabIssues,
 									tabContent: <RepoIssues issues={issues} result={result} loading={loading} />
+								},
+								{
+									tabHeading: i18n.tabGraph,
+									tabContent: <RepoGraph issues={issues} result={result} />
 								}
 							]}
 						/>

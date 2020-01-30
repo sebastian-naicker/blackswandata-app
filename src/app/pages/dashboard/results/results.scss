@@ -41,6 +41,10 @@
 		font-size: map_get($font-sizes, 'sm');
 		font-weight: map_get($weights, 'normal');
 		color: $app-grey-font-lighter;
+		max-width: 500px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
 
 		& > a {
 			font-size: map_get($font-sizes, 'md');

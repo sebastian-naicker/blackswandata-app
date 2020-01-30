@@ -1,13 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import cc from '@utils/styles'
 
-const Tab = ({ tabs }) => {
+const Tab = ({ tabs, data }) => {
 	const [activeTab, setActiveTab] = useState(0)
 
 	const handleSetActiveTab = ({ currentTarget }) => {
 		const tabNum = Number(currentTarget.dataset.id)
 		setActiveTab(tabNum)
 	}
+
+	useEffect(() => {
+		setActiveTab(0)
+	}, [data])
 
 	return (
 		<div className={cc('tab-list')}>

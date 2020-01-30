@@ -10,6 +10,7 @@ export default {
 	loadMore: 'Load more results',
 	tabDetails: 'Details',
 	tabIssues: 'Issues',
+	tabGraph: 'Repo health',
 	issueOpenedOn: 'Opened on',
 	openIssue: 'Open issue',
 	open: 'Open',

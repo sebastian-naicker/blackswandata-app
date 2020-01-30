@@ -4,6 +4,10 @@
 		flex-basis: 50%;
 	}
 
+	&__details-graph {
+		position: relative;
+	}
+
 	&__details-result {
 		position: sticky;
 		top: 50px;

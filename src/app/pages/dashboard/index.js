@@ -19,9 +19,9 @@ const mapStateToProps = ({ global }) => ({
 const mergeProps = (stateProps, { dispatch }) => ({
 	...stateProps,
 	didMount() {
-		// if (stateProps.repos.length === 0) {
-		// 	history.push(paths.ROOT)
-		// }
+		if (stateProps.repos.length === 0) {
+			history.push(paths.ROOT)
+		}
 	},
 	willUnmount() {
 		dispatch(resetAppState())
