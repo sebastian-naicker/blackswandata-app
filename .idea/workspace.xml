@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66040f5-a034-4d84-9fb0-2cf521d936c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/canvas/canvasjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/canvas/canvasjs.react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/repo-graph.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/details/repo-issues.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/details/repo-issues.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/dashboard/results/results.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/en/results-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en/results-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/common/components/tab/tab.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/common/components/tab/tab.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webpack/prod.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpack/prod.config.babel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +221,7 @@
       <workItem from="1580221278450" duration="105000" />
       <workItem from="1580221512307" duration="15000" />
       <workItem from="1580225732912" duration="23416000" />
-      <workItem from="1580304021444" duration="33231000" />
+      <workItem from="1580304021444" duration="33466000" />
     </task>
     <servers />
   </component>

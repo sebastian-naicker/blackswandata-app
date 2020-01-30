@@ -1,17 +1,21 @@
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import WebpackMd5Hash from 'webpack-md5-hash';
-import webpack from 'webpack';
-import CopyWebpackPlugin from 'copy-webpack-plugin';
-import env from 'dotenv';
+import path from 'path'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import WebpackMd5Hash from 'webpack-md5-hash'
+import webpack from 'webpack'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
+import env from 'dotenv'
 
-const dotenv = env.config({ path: '.env' });
+const dotenv = env.config({ path: '.env' })
 
 export default {
 	mode: 'production',
 	devtool: 'source-map',
-	entry: ['@babel/polyfill', path.resolve(__dirname, '../src/index.js'), path.resolve(__dirname, '../src/index.scss')],
+	entry: [
+		'@babel/polyfill',
+		path.resolve(__dirname, '../src/index.js'),
+		path.resolve(__dirname, '../src/index.scss')
+	],
 	target: 'web',
 	output: {
 		path: path.resolve(__dirname, '../dist'),
@@ -56,7 +60,7 @@ export default {
 			chunkFilename: '[id].[hash].css'
 		}),
 
-		new CopyWebpackPlugin([ { from: 'src/assets', to: 'assets' } ] ),
+		new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }])
 	],
 	module: {
 		rules: [
@@ -85,16 +89,6 @@ export default {
 					}
 				]
 			},
-			// {
-			// 	test: /\.(css|scss)$/,
-			// 	loader: 'sass-resources-loader',
-			// 	options: {
-			// 		resources: [
-			// 			path.join(__dirname, '../src/sass/base/_colors.scss'),
-			// 			path.join(__dirname, '../src/sass/base/_fonts.scss')
-			// 		]
-			// 	}
-			// },
 			{
 				test: /\.(png|jpg|gif)$/i,
 				use: [
@@ -105,7 +99,17 @@ export default {
 						}
 					}
 				]
+			},
+			{
+				test: /\.(css|scss)$/,
+				loader: 'sass-resources-loader',
+				options: {
+					resources: [
+						path.join(__dirname, '../src/sass/base/_colors.scss'),
+						path.join(__dirname, '../src/sass/base/_fonts.scss')
+					]
+				}
 			}
 		]
 	}
-};
+}
