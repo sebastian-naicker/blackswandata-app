@@ -10,6 +10,6 @@ Please note: This framework is still a work in progress, and may not be the fina
 Hope you enjoy!
 
 ## The Boring stuff
-To run the app, simply type npm start in your command line interface of choice.
-To build a production version of the app type npm run release - this will create a dist folder that is static and ready for deployment.
-There are a few other npm scripts that you can look at in the package.json file.
+To run the app, simply type `npm start` in your command line interface of choice.
+To build a production version of the app type `npm run release` - this will create a dist folder that is static and ready for deployment.
+There are a few other npm scripts that you can look at in the `package.json` file.
